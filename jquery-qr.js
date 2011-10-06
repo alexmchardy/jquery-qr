@@ -25,7 +25,7 @@
         return;
       }
 
-      $this.qr_div = createQR($this.attr('href'), settings.size);
+      $this.qr_div = createQR(this.href, settings.size);
 
       $this.mouseenter(function (event) {
         $this.qr_timeout_id = window.setTimeout(function () {
