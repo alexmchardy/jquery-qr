@@ -12,7 +12,7 @@
 
       var settings = {
         'size': '230',
-        'delay': '500',
+        'delay': '500'
       };
 
       if (options) {
@@ -32,7 +32,7 @@
           $($this.qr_div).css({
             'display': 'block',
             'top': event.pageY + 5,
-            'left': event.pageX + 15,
+            'left': event.pageX + 15
           });
         }, settings.delay);
 
@@ -64,7 +64,7 @@
         "border-style": "solid",
         'border-width': "1px",
         'position': 'absolute',
-        'z-index': '1000',
+        'z-index': '1000'
       });
       $('body').append($qr);
       return qr;
